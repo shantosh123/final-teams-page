@@ -8,7 +8,12 @@
 
 }
 body{
-  background-color: #bcd9f6;
+  /*background-color:#F9F9F9;*/
+  background-color:#EEEEEE;
+
+
+
+
 }
 /* navbar starts */
 .logo{
@@ -230,8 +235,12 @@ p{
 .shantosh, .nabeel, .abdul-rahman{
   margin-top: 20px;
 }
-
-
+.kevin, .zaid, .prince-khunt{
+  margin-top: 15px;
+}
+.prince-khunt{
+  margin-bottom: 20px;
+}
 
 @media only screen and (min-width: 1300px) {
   .iam-team, .cyber-team{
