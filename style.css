@@ -48,12 +48,7 @@ body{
 }
 
 
-.container-fluid img{
-  margin-left: 50px;
-  height: 50px;
-  width: 40px;
-  margin-bottom: 20px;
-}
+
 .container-fluid .navbar-brand{
   margin-left: 30px;
   font-weight: 600;
@@ -64,6 +59,7 @@ font-size: 15px;
 color: #fff;
 margin-left: 0px;
 }
+
 .navbar-toggler-icon{
   color: #4288C8;
  
@@ -122,10 +118,9 @@ margin-left: 0px;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
   border-radius: 15px;
-  color: #fff;
+  color: rgb(11, 10, 10);
   background-size: 180% 180%;
-  background-color:#4288C8 ;
-
+  background-color:#bbd7f1 ;
  
 }
 
@@ -141,15 +136,8 @@ margin-left: 0px;
 .flip-card-front i{
   margin-top: 10px;
 }
-.flip-card-back img{
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
- 
-  background-color: #09b4ed;
+.back {
+  margin-top: 80px;
 }
 
 
@@ -172,6 +160,7 @@ margin-left: 0px;
   color: #09b4ed;
   
 }
+
 h3{
   font-size: 20px;
   font-weight: 700;
