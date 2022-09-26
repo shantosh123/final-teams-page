@@ -14,13 +14,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Satisfy&display=swap" rel="stylesheet">
-
+    
     <link rel="icon" href="assets/img/logo.png" />
-
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
    
@@ -132,17 +135,22 @@
             <h2 class="heading mt-2 text-center"><strong>MEET THE TEAM</strong> </h2>
             <p class="details text-center"> These are the people that makes the magic happen.</p>
             <br><br>
-
+           
                <div class="tabs mb-3" id="myBtnContainer">
+                
                     <button class="btn active" data-tabs="all" > ALL</button>
                     <button class="btn" data-tabs="leadershipmanagement"> LEADERSHIP & MANAGEMENT</button>
                     <button class="btn" data-tabs="beginnerinternship"> BEGINNER INTERNSHIP</button>
                     <button class="btn" data-tabs="identityaccessmanagement"> IDENTITY ACCESS MANAGEMENT</button>
                     <button class="btn" data-tabs="cybersecurity"> CYBERSECURITY</button>
-                    <button class="btn" data-tabs="webdevelopment"> WEB DEVELOPMENT</button>
-                </div>    
+                    <button class="btn" data-tabs="webdevelopment" onclick="change_text()"> WEB DEVELOPMENT</button>
+                </div> 
+              
+ 
         </div> 
                 <br>
+
+                
             
        <!-- filter part ends--> 
        
@@ -151,17 +159,17 @@
 <main class="page">
       
     <div class="container">
-            <div class="row mb-5 justify-content-center">
+            <div class="row mb-5 justify-content-left">
 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card leadershipmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card leadershipmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Victor_monga.png" alt="Profile-Image">
                                 <h5 class="name">Victor <br>Monga</h5>
                                 <h5 class="pos victor">Co-Founder</h5>
-                                <h4 class="role victor-role">Leadership</h4>
+                            
                             </div>
         
                             <div class="flip-card-back">
@@ -181,14 +189,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card leadershipmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card leadershipmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Mallory_Vega.jpg" alt="Profile-Image">
                                 <h5 class="name">Mallory <br>Vega</h5>
                                 <h5 class="pos">Director of Operations and Management</h5>
-                                <h4 class="role">Leadership</h4>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -208,14 +216,14 @@
 
                 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card leadershipmanagement beginnerinternship cybersecurity webdevelopment"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card leadershipmanagement beginnerinternship cybersecurity webdevelopment"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Karthikeyan_Ramaswamy.png" alt="Profile-Image">
                                 <h5 class="name">Karthikeyan <br>Ramaswamy</h5>
                                 <h5 class="pos">Manager of Technology and Development</h5>
-                                <h4 class="role">Management</h4>
+                             
                             </div>
         
                             <div class="flip-card-back">
@@ -236,14 +244,14 @@
          
 
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card leadershipmanagement identityaccessmanagement"> 
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card leadershipmanagement identityaccessmanagement"> 
                         <div class="flip-card">
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <img src="./assets/img/Rishi_sharma.jpg" alt="Profile-Image">
                                     <h5 class="name">Rishi <br>Sharma</h5>
-                                    <h5 class="pos rishi">IAM Dept. Manager</h5>
-                                    <h4 class="role rishi-role">Management</h4>
+                                    <h5 class="pos rishi">Identity Access Management Department Manager</h5>
+                                   
                                 </div>
             
                                 <div class="flip-card-back">
@@ -265,14 +273,14 @@
 
             
          
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card beginnerinternship webdevelopment"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card beginnerinternship webdevelopment"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Prince_khunt.jpg" alt="Profile-Image">
                                 <h5 class="name">Prince <br>Khunt</h5>
-                                <h5 class="pos">Operation Manager</h5>
-                                <p class="role">Beginner Internship Management Department</p>
+                                <h5 class="pos" id="prince_position">Operation Manager</h5>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -291,14 +299,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card beginnerinternship"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card beginnerinternship"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Zaid_ahmad.jpg" alt="Profile-Image">
                                 <h5 class="name">Zaid <br>Ahmad</h5>
                                 <h5 class="pos">Program Co-ordinator</h5>
-                                <p class="role">Beginner Internship Management Department</p>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -316,14 +324,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card beginnerinternship"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card beginnerinternship"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="./assets/img/avatar.jpg" alt="Profile-Image">
+                                <img src="./assets/img/Kevin_Vakani.JPG" alt="Profile-Image">
                                 <h5 class="name">Kevin <br>Vakani</h5>
                                 <h5 class="pos">Discord Manager</h5>
-                                <p class="role">Beginner Internship Management Department</p>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -343,14 +351,14 @@
      
 
         
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card identityaccessmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card identityaccessmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Ernest_Aduwenye.jpg" alt="Profile-Image">
                                 <h5 class="name">Ernest <br>Aduwenye</h5>
                                 <h5 class="pos">IAM Staff Mgt. Team Lead</h5>
-                                <h4 class="role">IAM Department</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -371,14 +379,14 @@
 
                 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card identityaccessmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card identityaccessmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Lovejoy_ncube.jpg" alt="Profile-Image">
                                 <h5 class="name">Lovejoy <br>Ncube</h5>
                                 <h5 class="pos">IAM Engineer</h5>
-                                <h4 class="role">IAM Department</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -398,14 +406,14 @@
              
 
             
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card identityaccessmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card identityaccessmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Oluwatosin_Ayodeji.jpeg" alt="Profile-Image">
                                 <h5 class="name">Oluwatosin <br>Ogunleye</h5>
                                 <h5 class="pos">IAM Engineer</h5>
-                                <h4 class="role">IAM Department</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -423,14 +431,14 @@
                     </div> 
                 </div>      
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card identityaccessmanagement"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card identityaccessmanagement"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Victor_Asiimwe.png" alt="Profile-Image">
                                 <h5 class="name">Victor <br>Asiimwe</h5>
                                 <h5 class="pos">IAM Engineer</h5>
-                                <h4 class="role">IAM Department</h4>
+                                
                             </div>
         
                             <div class="flip-card-back">
@@ -454,14 +462,14 @@
 
            
          
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Waleed_Zafar.jpg" alt="Profile-Image">
                                 <h5 class="name">Waleed <br>Zafar</h5>
                                 <h5 class="pos">Red Team Lead</h5>
-                                <h4 class="role">Red Team</h4>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -479,14 +487,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="./assets/img/avatar.jpg" alt="Profile-Image">
+                                <img src="./assets/img/alibaba.jpg" alt="Profile-Image">
                                 <h5 class="name">Aliu <br>Alibaba</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                            
                             </div>
         
                             <div class="flip-card-back">
@@ -504,14 +512,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="./assets/img/avatar.jpg" alt="Profile-Image">
+                                <img src="./assets/img/Huraira_Mujahid.jpg" alt="Profile-Image">
                                 <h5 class="name">Huraira <br>Mujahid</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                             
                             </div>
         
                             <div class="flip-card-back">
@@ -529,14 +537,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/mohammad-ilyas.jpg" alt="Profile-Image">
                                 <h5 class="name">Mohammad <br>Ilyas</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -556,14 +564,14 @@
                 
          
          
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Mohd_Abdul_Sami.jpg" alt="Profile-Image">
                                 <h5 class="name">Mohd <br>Abdul Sami</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -581,14 +589,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="./assets/img/avatar.jpg" alt="Profile-Image">
+                                <img src="./assets/img/Nicholas_Biggie.JPG" alt="Profile-Image">
                                 <h5 class="name">Nicholas <br>Biggie</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -606,14 +614,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Abdul_Moiz_Quddus.jpg" alt="Profile-Image">
                                 <h5 class="name">Abdul Moiz <br>Quddus</h5>
                                 <h5 class="pos">Red Team Engineer</h5>
-                                <h4 class="role">Red Team</h4>
+                             
                             </div>
         
                             <div class="flip-card-back">
@@ -631,14 +639,14 @@
                     </div>   
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card cybersecurity"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card cybersecurity"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Mansour_parizi.jpg" alt="Profile-Image">
                                 <h5 class="name">Mansour <br>Parizi</h5>
                                 <h5 class="pos">Network and System Administrator</h5>
-                                <h4 class="role">NASA Team</h4>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -660,14 +668,14 @@
 
         
       
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card webdevelopment"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card webdevelopment"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/Abdulrahman_Olagunju.jpg" alt="Profile-Image">
                                 <h5 class="name">Abdulrahman <br>Olagunju</h5>
                                 <h5 class="pos">Front-End Developer</h5>
-                                <p class="role">Web Development Team</p>
+                              
                             </div>
         
                             <div class="flip-card-back">
@@ -687,14 +695,14 @@
 
                 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 col-12 all-card webdevelopment"> 
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12 all-card webdevelopment"> 
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="./assets/img/shantosh_kshetri.jpg" alt="Profile-Image">
                                 <h5 class="name">Shantosh <br>Kshetri</h5>
                                 <h5 class="pos">Front-End Developer</h5>
-                                <p class="role">Web Development Team</p>
+                               
                             </div>
         
                             <div class="flip-card-back">
@@ -716,6 +724,15 @@
     </main>
 
     <!--teams page ends -->
+
+
+
+
+
+
+
+
+
     <!--footer start -->
     <footer class="d-flex py-3 border-top footer-page">
         <div class="container">
@@ -749,6 +766,7 @@
     </script>
 
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
 
     <script src="home.js"></script>
 </body>
