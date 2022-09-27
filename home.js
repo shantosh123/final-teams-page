@@ -61,4 +61,6 @@ function change_text(){
     document.getElementById("prince_position").innerHTML = "Back-End Developer";
 }
 
-
+function change_operation(){
+    document.getElementById("prince_position").innerHTML = "Operation Manager";
+}
