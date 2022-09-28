@@ -240,7 +240,11 @@ body #myLoaderIframe {
     padding: 5px;
 }
 
- 
+.back p {
+    font-family: 'Lobster Two', cursive;
+
+}
+  
   
 .social{
     margin-top: 5px;
@@ -262,24 +266,19 @@ body #myLoaderIframe {
 }
 
 .name{
-   
     text-align: center;
     margin-top: 15px;
- 
-    font-family: 'Noto Sans Mono', monospace;
-
-font-weight: 700;
-
-
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-style: normal; 
  
 }
 
 .pos{
-    font-weight: 700;
-    
+    font-weight: 500;
     text-align: center;
     margin-top: 15px;
-    font-family: 'Noto Sans Mono', monospace;
+    font-family:'Oswald', sans-serif;
     
 }
 
